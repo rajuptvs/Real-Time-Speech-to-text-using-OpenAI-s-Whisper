@@ -1,11 +1,6 @@
 import pyaudio
 from pydub import AudioSegment
 
-import ffmpeg
-import sys
-import os
-import whisper
-
 from helperfunctions import whisper_gpt
 nfile="normaltranscipt.txt"
 realtimefile="realtimetranscript.txt"
